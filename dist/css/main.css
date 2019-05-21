@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.4s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -42,26 +42,27 @@
     padding: 0;
     background: #323232;
     list-style: none;
-    transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transform: translate3d(100%, -100%, 0);
+    transition: all 0.4s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #3f3f3f;
-    transform: translate3d(0, 100%, 0);
-    transition: all 0.5s ease-out; }
+    transform: translate3d(-100%, 100%, 0);
+    transition: all 0.4s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait2.jpg");
+      width: 350px;
+      height: 350px;
+      background: url("../img/portrait2.JPG");
       border-radius: 50%;
       border: solid 3px #f12121;
-      opacity: 1; }
+      opacity: 1;
+      background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -75,7 +76,7 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu .nav-link:hover {
       color: #f12121; }
 
@@ -122,7 +123,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait2.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -150,7 +151,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(https://www.complispace.com.au/wp-content/uploads/2017/08/shutterstock_329205053.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -188,6 +189,14 @@ header {
 .text-secondary {
   color: #f12121; }
 
+.icons2 {
+  margin-top: 15px; }
+  .icons2 .fa, .icons2 .fab {
+    padding: 15px; }
+    .icons2 .fa:hover, .icons2 .fab:hover {
+      color: #f12121;
+      transition: all 0.8s ease-out; }
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
@@ -213,7 +222,9 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #f12121 3px solid; }
+  border: #f12121 3px solid;
+  height: 450px;
+  width: 400px; }
 
 .bio {
   grid-area: bio;
@@ -288,6 +299,9 @@ main {
   color: #fff;
   height: 60px; }
 
+hr {
+  width: 200px; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
@@ -319,7 +333,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait2.jpg");
       width: 150px;
       height: 150px; }
   .about-info {

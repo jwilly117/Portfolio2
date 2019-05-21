@@ -6,7 +6,7 @@
 
 
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(https://www.complispace.com.au/wp-content/uploads/2017/08/shutterstock_329205053.jpg);
 
 
 @mixin easeOut {
@@ -88,6 +88,20 @@ header{
 
 }
 
+
+.icons2{
+
+    margin-top:15px;
+
+    .fa, .fab {
+        padding: 15px;
+        &:hover{
+            color: $secondary-color;
+            @include easeOut();
+        }
+    }
+}
+
 main{
     padding: 4rem;
     // height: 100%;
@@ -128,6 +142,8 @@ main{
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    height: 450px;
+    width:400px;
 
 }
 
@@ -236,5 +252,8 @@ main{
 
 }
 
+hr{
+    width:200px;
+}
 
 @import 'mobile';
