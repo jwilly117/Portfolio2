@@ -1,16 +1,15 @@
 # Web Development Portfolio<br>
 
 ### Summary
-WHHW is an intuitive way to search for events and NYT articles on a certain day, primarily a persons birthday. It pulls from the NYT API from their database of articles and from the another API for famous events in history. It then allows users to input their name or a name of their choice and share an article of their choosing to the social panel over on the left hand side of the screen
-
+This site, which is forewarded to www.jakewilliams.dev , Is my professional portfolio for web development. 
 ### The goal of this project
-The goal was to make a simple page and catch the attention of potentially a room full of people with a quick, easy, and unique social experience based around dates in history. 
+The objective here is simply to inform viewers about me and to give them links to contact me and to view my work and skills. 
 
 ### File Structure
-The project is made esentially with one page styled using the materialize CSS library, and interacting with Two different API's to retrieve information. To share that information, the side pushes and pulls from a firebase table into a share section on the left. 
+This is a basic html site with some heavy CSS using Sass. it is forewarded from the github pages site to jakewilliams.dev
 
 ### Instructions
-Input your name and your desired date, usually the users birthday, and then click submit. Then the app will pull information from its two API's about relative articles and events and display them down below in two collumns. Then, if a user desires, you can share an event by clicking the button next to the article. The last 30 shared articles will reflected on the left. 
+There are 4 pages to this site, the landing page, or home page gives links to other links of mine and a hamburger style menu linking to the other pages. The contact page is a simple one listing off how to contact me using email or phone. The about me page gives a brief history of me and my development and the my work page has links to a few of my projects and their repos. 
 
 ### Deployment & Screenshot
 [Link to Deployment](https://jakewilliams.dev)
@@ -18,5 +17,5 @@ Input your name and your desired date, usually the users birthday, and then clic
 ![image](https://imgur.com/C5FxnLy.png)
 
 ### Future of this project
-The future potential of this project would be to enhance the user experience with a more fluid page, and to source information from more sources. For example, one idea was show information about famous birthdays on specified dates in history. 
-
+This site will continue to be updated as my career advances with more relavent and advanced skills and work experience. 
+Thankyou for taking the time to view it. 
