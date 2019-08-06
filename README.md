@@ -15,7 +15,7 @@ Input your name and your desired date, usually the users birthday, and then clic
 ### Deployment & Screenshot
 [Link to Deployment](https://jakewilliams.dev)
 
-![image](https://imgur.com/S1pLHZl.png)
+![image](https://imgur.com/C5FxnLy.png)
 
 ### Future of this project
 The future potential of this project would be to enhance the user experience with a more fluid page, and to source information from more sources. For example, one idea was show information about famous birthdays on specified dates in history. 
