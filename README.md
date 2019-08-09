@@ -16,6 +16,7 @@ There are 4 pages to this site, the landing page, or home page gives links to ot
 
 ![image](https://imgur.com/C5FxnLy.png)
 
+
 ### Future of this project
 This site will continue to be updated as my career advances with more relavent and advanced skills and work experience. 
 Thankyou for taking the time to view it. 
